@@ -1,0 +1,41 @@
+
+.my_container {
+    width: 800px;
+    height: 300px;
+    margin: 280px auto;
+    position: relative;
+}
+
+
+.my_container img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    display: none;
+}
+
+.bg-fa {
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-angle-up {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-angle-down {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.my_container .my_display {
+    display: block;
+}
